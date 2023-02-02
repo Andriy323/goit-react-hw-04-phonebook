@@ -1,0 +1,27 @@
+.btnDelete {
+  cursor: pointer;
+  width: 65px;
+  height: 20px;
+  background-color: rgb(117, 40, 40);
+  color: aliceblue;
+
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+}
+.btnDelete:hover {
+  background-color: rgb(224, 53, 53);
+  color: #000;
+}
+.list {
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
