@@ -40,7 +40,8 @@ p {
   margin: 0;
 }
 ul,
-ol {
+ol,
+input {
   margin: 0;
   padding: 0;
 }
