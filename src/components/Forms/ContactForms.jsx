@@ -27,7 +27,7 @@ const ContactForm = ({ onSubmit }) => {
   return (
     <div className={css.formContainer}>
       <form onSubmit={hendleSubmit} className={css.form}>
-        <label htmlFor={idName}>Name</label>
+        <label className={css.label} htmlFor={idName}>Name</label>
         <input
           id={idName}
           type="text"
@@ -38,7 +38,7 @@ const ContactForm = ({ onSubmit }) => {
           required
           onChange={handleChange}
         />
-        <label htmlFor={idNumber}>Number</label>
+        <label className={css.label} htmlFor={idNumber}>Number</label>
         <input
           id={idNumber}
           type="number"

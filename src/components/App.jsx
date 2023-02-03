@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Filter from './Filter/Filter';
 import ContactForm from './Forms/ContactForms';
 import ContactList from './ContactList/ContactList';
-import css from 'components/App.module.css';
+import css from './App.module.css';
 
 const App = () => {
   const [contacts, setContacts] = useState(

@@ -3,11 +3,12 @@
   display: block;
 }
 
-label {
+.label {
   font-size: 13px;
   display: flex;
   flex-direction: column;
   max-width: 200px;
+  margin-top: 10px;
 }
 
 input {
