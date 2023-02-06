@@ -52,7 +52,9 @@ const App = () => {
     <div className={css.appContainer}>
       <h1 className={css.title}>Phonebook</h1>
       <ContactForm onSubmit={addContact} />
-      <Filter handleFilter={handleFilter} value={filters} />
+      {contacts.length !== 0 && (
+        <Filter handleFilter={handleFilter} value={filters} />
+      )}
 
       <h2 className={css.title}>Contacts</h2>
       <ContactList
